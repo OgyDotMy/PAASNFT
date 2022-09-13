@@ -1,0 +1,88 @@
+
+.discover{
+    width: 100%;
+    &-menu{
+        a{
+            color: black;
+            text-decoration: none;
+            padding: 20px;
+        }
+        select{
+            padding: 4px 10px;
+            border-radius: 20px;
+        }        
+        .discover-1{
+            background-color: black;
+            color: white;
+            padding: 6px 20px;
+            border-radius: 20px;
+        }
+    }
+    &-card{
+        margin-top: 40px;
+        width: 30%;
+        h5{
+            font-weight: 600;
+            font-size: 17px;
+        }
+        p{
+            font-weight: 300;
+            line-height: 120%;
+            font-size: 14px;
+        }
+        .name{
+            font-weight: 800;
+            img{
+                width: 6%;
+            }
+        }
+        .love{
+            display: flex;
+            justify-content: right;
+            margin-top: -40px;
+            img{
+                width: 6%;
+            }
+        }
+        
+        .price{
+            margin-top: 40px;
+            font-weight: 500;
+            color: gray;
+            span{
+                display: flex;
+                justify-content:right;
+                font-size: 18px;
+                color: black;
+            }
+        }
+        .time{
+            font-weight: 500;
+            color: gray;
+            span{
+                display: flex;
+                justify-content: right;
+                font-size: 18px;
+                color: black;
+            }
+        }
+        
+        img{
+            width: 100%;
+            border-radius: 14px;
+        }
+    }
+    &-end{
+        margin-top: 40px;
+        a{
+            border: 1px solid black;
+            text-decoration: none;
+            color: black;
+            padding: 4px 30px;
+            border-radius: 20px;
+            &:hover{
+                font-weight: bold;
+            }
+        }
+    }
+}
